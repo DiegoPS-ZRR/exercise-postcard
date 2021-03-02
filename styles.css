@@ -1,9 +1,77 @@
+/* Default */
+
 body {
-	background: black;
+    background: black;
 }
+
 .postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
-	margin: auto;
+    background: white;
+    font-family: 'Architects Daughter', cursive;
+	width: 500px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+/* Top */
+
+.header {
+    position: relative;
+    height: 75px;
+    display: flex;
+}
+
+.title {
+    flex: 1;
+}
+
+.logo {
+    width: 60px;
+    background-image: url(http://assets.breatheco.de/apis/img/icon/4geeks.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: right;
+}
+
+.logo img{
+    max-width: 60px;
+}
+
+/* Mid */
+
+.body {
+    overflow: hidden;
+}
+
+.text {
+font-family: 'Architects Daughter', cursive;
+text-align: left;
+margin-left: 0%;
+float: left;
+width: 50%;
+}
+
+.info {
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+    width: 50%;
+    float: right;
+    display: block;
+}
+
+/* Bot */
+
+.button {
+    height: 15%;
+    margin: 1em;
+    font-family: 'Architects Daughter', cursive;
+    width: 40%;
+    margin: 0%;
+    padding-bottom: 50%;
+    border: none;
 }
